@@ -4,3 +4,6 @@ class Producto:
         self.nombre = nombre
         self.precio = precio
         self.stock = 0
+
+    def juampy(self):
+        pass
