@@ -4,6 +4,10 @@ class Producto:
         self.nombre = nombre
         self.precio = precio
         self.stock = 0
+
+    def juampy(self):
+        pass
+
         self.descuento = 0
 
     def agregar_descuento(self, porcentaje):
