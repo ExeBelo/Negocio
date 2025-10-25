@@ -7,3 +7,10 @@ class Producto:
 
     def juampy(self):
         pass
+
+        self.descuento = 0
+
+    def agregar_descuento(self, porcentaje):
+        self.precio = self.precio * (1 - porcentaje / 100)
+
+
